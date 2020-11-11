@@ -1,0 +1,29 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+
+$special-font: 'Francois One', sans-serif; 
+$default-font: 'Open Sans', sans-serif;
+
+// Reset page
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, 
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    // 1rem = 10px => 10px/16px = 62.5
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $default-font;
+    font-weight: 400;
+    line-height: 1.6;
+}

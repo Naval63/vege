@@ -1,0 +1,24 @@
+{
+  "name": "Trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp build",
+    "start": "http-server ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "gulp-pipe-media": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "http-server": "^0.12.3",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
